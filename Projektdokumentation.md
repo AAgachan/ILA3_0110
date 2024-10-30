@@ -1,90 +1,114 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
+**Projektantrag zu LA_ILA3_0110**
 
-✍️ Ihr Gruppenname und Ihre Nachnamen
+**Projektteam (1. Zeile = Projektleitung):**
 
-| Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| Name          | Vorname     | Klasse |
+|---------------|-------------|--------|
+| Atputharasa   | Agachan     | Im22d  |
+| Angelov       | Angel       | Im22d  |
+| Marku         | Erik        | Im22d  |
+| Jashari       | Denis       | Im22d  |
 
-## 1 Informieren
+---
 
-### 1.1 Ihr Projekt
+| Datum      | Version | Zusammenfassung                                                                                       |
+|------------|---------|-------------------------------------------------------------------------------------------------------|
+| 30.08.2024 | 0.0.1   | Datenmodellierung abgeschlossen; grundlegende Datenbankstrukturen für Schüler, Lehrer und Klassen erstellt. |
+| 06.09.2024 | 0.0.2   | CRUD-Funktionalität implementiert für Schüler- und Lehrerverwaltung. Erste Tests der Benutzerverwaltung durchgeführt. |
+| 13.09.2024 | 0.0.3   | Klassenverwaltungssystem entwickelt; Schüler können nach Schuljahren eingeteilt werden. |
+| 20.09.2024 | 0.0.4   | Rollenmanagementsystem implementiert; Benutzerrollen erstellt und Rechte zugewiesen. |
+| 27.09.2024 | 0.0.5   | Benutzerverwaltung und Sicherheitsfeatures integriert. |
+| 04.10.2024 | 1.0.0   | Abschluss der Entwicklung und finale Tests; Projektdokumentation finalisiert. |
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+## 1. Informieren
+
+### 1.1 Projektbeschreibung
+
+Wir erstellen eine Applikation zur Schulverwaltung, die es ermöglicht, Schüler und Lehrpersonen zu erfassen und zu verwalten sowie nach Schuljahren in Klassen einzuteilen.
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+| US-№ | Verbindlichkeit | Typ         | Beschreibung                                                                                   |
+|------|-----------------|-------------|-----------------------------------------------------------------------------------------------|
+| 1    | muss           | Funktional  | Als Administrator möchte ich Schüler und Lehrpersonen in das System eintragen, um Stammdaten zu pflegen. |
+| 2    | muss           | Funktional  | Als Administrator möchte ich Benutzerrollen definieren, um verschiedene Berechtigungen zu verwalten. |
+| 3    | muss           | Funktional  | Als Lehrer möchte ich Schüler in Schulklassen einteilen, um Klassenübersichten zu erstellen. |
+| 4    | muss           | Qualität    | Als Benutzer möchte ich, dass die Applikation sicher ist, um Datenintegrität zu gewährleisten. |
+| 5    | kann           | Rand        | Als Benutzer möchte ich eine benutzerfreundliche Oberfläche, um die Anwendung intuitiv zu bedienen. |
 
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+| TC-№ | Ausgangslage        | Eingabe                          | Erwartete Ausgabe                                |
+|------|----------------------|----------------------------------|--------------------------------------------------|
+| 1.1  | Benutzerlogin       | gültige Anmeldedaten            | Zugriff auf das System                           |
+| 1.2  | Benutzerlogin       | ungültige Anmeldedaten          | Fehlermeldung „Ungültige Anmeldedaten“          |
+| 2.1  | Benutzererstellung  | vollständige Angaben             | Neuer Benutzer wird erstellt                     |
+| 3.1  | Klasseneinteilung   | Schüler einer Klasse zuordnen    | Schüler erfolgreich zugeteilt                    |
+| 4.1  | CRUD-Funktionalität | Schüler- oder Lehrerdaten ändern | Aktualisierte Informationen werden angezeigt     |
+| 5.1  | Rollenmanagement    | Benutzerrollen zuweisen         | Benutzer erhält Zugriff auf spezifische Funktionen |
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+Diagramme für das Datenmodell und die Benutzerrollen sind im GitHub-Repository abgelegt.
 
-## 2 Planen
+---
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+## 2. Planen
 
-Total: 
+| AP-№ | Frist      | Zuständig    | Beschreibung                                          | geplante Zeit |
+|------|------------|--------------|-------------------------------------------------------|---------------|
+| 1.A  | 30.08.2024 | Atputharasa  | CRUD-Implementation für Schüler und Lehrer            | 60'          |
+| 2.A  | 30.08.2024 | Jashari      | Datenmodellierung für Schüler-, Lehrer- und Klassendaten | 60'          |
+| 3.A  | 06.09.2024 | Angelov      | Klassenverwaltung zur Einteilung nach Schuljahren     | 60'          |
+| 4.A  | 13.09.2024 | Marku        | Rollenmanagement für Benutzerrechte                    | 60'          |
+| 5.A  | 13.09.2024 | Atputharasa  | Backend-Integration mit MongoDB                       | 60'          |
+| 6.A  | 20.09.2024 | Angelov      | Schnittstellenimplementierung                         | 60'          |
+| 7.A  | 20.09.2024 | Marku        | Benutzerverwaltung                                    | 60'          |
+| 8.A  | 27.09.2024 | Jashari      | Sicherheitsfeatures implementieren                    | 60'          |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
+Total: 8 Arbeitspakete
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+## 3. Entscheiden
 
-## 3 Entscheiden
+Entscheidungen im Projekt:
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+1. **Technologien**: Verwendung von C# und MongoDB für die Applikation zur Speicherung und Verwaltung der Daten.
+2. **Projektmethode**: IPERKA (Informieren, Planen, Entscheiden, Realisieren, Kontrollieren, Auswerten).
+3. **Aufteilung des Teams**: Die Teammitglieder sind den Arbeitspaketen zugeordnet, um parallel an verschiedenen Komponenten zu arbeiten.
 
-## 4 Realisieren
+## 4. Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| AP-№ | Datum      | Zuständig    | geplante Zeit | tatsächliche Zeit |
+|------|------------|--------------|---------------|-------------------|
+| 1.A  | 30.08.2024 | Atputharasa  | 60'          | 60'              |
+| 2.A  | 30.08.2024 | Jashari      | 60'          | 55'              |
+| 3.A  | 06.09.2024 | Angelov      | 60'          | 60'              |
+| 4.A  | 13.09.2024 | Marku        | 60'          | 65'              |
+| 5.A  | 13.09.2024 | Atputharasa  | 60'          | 60'              |
+| 6.A  | 20.09.2024 | Angelov      | 60'          | 55'              |
+| 7.A  | 20.09.2024 | Marku        | 60'          | 60'              |
+| 8.A  | 27.09.2024 | Jashari      | 60'          | 60'              |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
-
-## 5 Kontrollieren
+## 5. Kontrollieren
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-№ | Datum      | Resultat | Tester      |
+|------|------------|----------|-------------|
+| 1.1  | 04.10.2024 | OK       | Atputharasa |
+| 1.2  | 04.10.2024 | OK       | Atputharasa |
+| 2.1  | 04.10.2024 | OK       | Marku       |
+| 3.1  | 04.10.2024 | OK       | Angelov     |
+| 4.1  | 04.10.2024 | OK       | Jashari     |
+| 5.1  | 04.10.2024 | OK       | Marku       |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Alle Tests sind erfolgreich verlaufen, und die Software ist bereit für die Einführung in die Schulverwaltung.
 
-### 5.2 Exploratives Testen
+---
 
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
+## 6. Auswerten
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+Der Lernbericht und die vollständige Projektdokumentation sind im GitHub-Repository verlinkt.
 
