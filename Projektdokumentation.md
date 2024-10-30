@@ -32,26 +32,39 @@ Wir erstellen eine Applikation zur Schulverwaltung, die es ermöglicht, Schüler
 
 | US-№ | Verbindlichkeit | Typ         | Beschreibung                                                                                   |
 |------|-----------------|-------------|-----------------------------------------------------------------------------------------------|
-| 1    | muss           | Funktional  | Als Administrator möchte ich Schüler und Lehrpersonen in das System eintragen, um Stammdaten zu pflegen. |
-| 2    | muss           | Funktional  | Als Administrator möchte ich Benutzerrollen definieren, um verschiedene Berechtigungen zu verwalten. |
-| 3    | muss           | Funktional  | Als Lehrer möchte ich Schüler in Schulklassen einteilen, um Klassenübersichten zu erstellen. |
-| 4    | muss           | Qualität    | Als Benutzer möchte ich, dass die Applikation sicher ist, um Datenintegrität zu gewährleisten. |
-| 5    | kann           | Rand        | Als Benutzer möchte ich eine benutzerfreundliche Oberfläche, um die Anwendung intuitiv zu bedienen. |
+| 1    | muss           | Funktional  | Als Administrator möchte ich neue Schüler und Lehrer anlegen, um deren Stammdaten im System zu pflegen. |
+| 2    | muss           | Funktional  | Als Administrator möchte ich die Daten bestehender Schüler und Lehrer bearbeiten können, um aktuelle Informationen zu gewährleisten. |
+| 3    | muss           | Funktional  | Als Lehrer möchte ich Schüler zu bestimmten Klassen zuordnen, um Klassenübersichten zu erstellen. |
+| 4    | muss           | Funktional  | Als Administrator möchte ich Benutzerrollen (z.B. Lehrer, Schüler) mit spezifischen Zugriffsrechten definieren, um den Zugriff zu steuern. |
+| 5    | muss           | Funktional  | Als Benutzer möchte ich eine sichere Authentifizierung, um den Zugang zu meiner Rolle zu beschränken. |
+| 6    | muss           | Funktional  | Als Benutzer möchte ich die Möglichkeit haben, mein Passwort zu ändern, um die Sicherheit zu erhöhen. |
+| 7    | kann           | Funktional  | Als Lehrer möchte ich Klassengruppen mit ihren Klassenaktivitäten dokumentieren können, um Berichte zu erstellen. |
+| 8    | kann           | Funktional  | Als Administrator möchte ich eine Übersicht aller Benutzer, um das System effizient zu verwalten. |
+| 9    | muss           | Qualität    | Als Benutzer möchte ich eine intuitive und benutzerfreundliche Oberfläche, um die Applikation effizient zu nutzen. |
+| 10   | muss           | Qualität    | Als Administrator möchte ich die Möglichkeit haben, die Datenbank zu sichern und wiederherzustellen, um Datenverlust zu vermeiden. |
 
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage        | Eingabe                          | Erwartete Ausgabe                                |
-|------|----------------------|----------------------------------|--------------------------------------------------|
-| 1.1  | Benutzerlogin       | gültige Anmeldedaten            | Zugriff auf das System                           |
-| 1.2  | Benutzerlogin       | ungültige Anmeldedaten          | Fehlermeldung „Ungültige Anmeldedaten“          |
-| 2.1  | Benutzererstellung  | vollständige Angaben             | Neuer Benutzer wird erstellt                     |
-| 3.1  | Klasseneinteilung   | Schüler einer Klasse zuordnen    | Schüler erfolgreich zugeteilt                    |
-| 4.1  | CRUD-Funktionalität | Schüler- oder Lehrerdaten ändern | Aktualisierte Informationen werden angezeigt     |
-| 5.1  | Rollenmanagement    | Benutzerrollen zuweisen         | Benutzer erhält Zugriff auf spezifische Funktionen |
+| TC-№ | Ausgangslage             | Eingabe                               | Erwartete Ausgabe                                |
+|------|---------------------------|---------------------------------------|--------------------------------------------------|
+| 1.1  | Anmeldeseite              | gültige Anmeldedaten                  | Zugriff auf das System                           |
+| 1.2  | Anmeldeseite              | ungültige Anmeldedaten                | Fehlermeldung „Ungültige Anmeldedaten“          |
+| 2.1  | Hauptseite                | "Neuer Schüler" Button klicken       | Eingabeformular für neue Schüler wird geöffnet   |
+| 2.2  | Neues Schülerformular     | Schülerdaten vollständig eingeben     | Neuer Schüler wird in der Datenbank gespeichert  |
+| 3.1  | Schüler-Übersichtsseite   | Bearbeiten-Button für Schüler wählen  | Daten des ausgewählten Schülers können geändert werden |
+| 3.2  | Schüler-Übersichtsseite   | Löschen-Button für Schüler wählen     | Schüler wird aus der Datenbank entfernt          |
+| 4.1  | Rollenmanagementseite     | Rolle "Lehrer" erstellen              | Neue Rolle wird erfolgreich hinzugefügt          |
+| 4.2  | Rollenmanagementseite     | Rechte für Rolle „Lehrer“ definieren  | Rechte für die Rolle werden erfolgreich gespeichert |
+| 5.1  | Passwortänderungsseite     | Neues Passwort eingeben               | Passwort wird erfolgreich geändert               |
+| 6.1  | Klassenzuordnungsseite    | Schüler zur Klasse hinzufügen         | Schüler wird in die gewünschte Klasse eingefügt  |
+| 7.1  | Benutzerübersichtsseite    | Alle Benutzer anzeigen                | Liste aller Benutzer wird angezeigt              |
+| 8.1  | Sicherungsfunktion        | Sicherung starten                     | Datenbank wird erfolgreich gesichert             |
+| 8.2  | Wiederherstellungsfunktion | Wiederherstellung starten             | Datenbank wird erfolgreich wiederhergestellt     |
+| 9.1  | Klassengruppenseite        | Klassenbericht erstellen              | Klassenbericht wird erfolgreich generiert        |
 
 ### 1.4 Diagramme
 
-Diagramme für das Datenmodell und die Benutzerrollen sind im GitHub-Repository abgelegt.
+Diagramme für das Datenmodell, Use-Case-Diagramme und das Rollenmanagement sind im GitHub-Repository abgelegt.
 
 ---
 
@@ -67,8 +80,10 @@ Diagramme für das Datenmodell und die Benutzerrollen sind im GitHub-Repository 
 | 6.A  | 20.09.2024 | Angelov      | Schnittstellenimplementierung                         | 60'          |
 | 7.A  | 20.09.2024 | Marku        | Benutzerverwaltung                                    | 60'          |
 | 8.A  | 27.09.2024 | Jashari      | Sicherheitsfeatures implementieren                    | 60'          |
+| 9.A  | 04.10.2024 | Marku        | Implementierung der Datenbanksicherungsfunktion       | 60'          |
+| 10.A | 04.10.2024 | Jashari      | Erstellung der Dokumentation für Benutzer und Admins   | 60'          |
 
-Total: 8 Arbeitspakete
+Total: 10 Arbeitspakete
 
 ## 3. Entscheiden
 
@@ -90,6 +105,8 @@ Entscheidungen im Projekt:
 | 6.A  | 20.09.2024 | Angelov      | 60'          | 55'              |
 | 7.A  | 20.09.2024 | Marku        | 60'          | 60'              |
 | 8.A  | 27.09.2024 | Jashari      | 60'          | 60'              |
+| 9.A  | 04.10.2024 | Marku        | 60'          | 60'              |
+| 10.A | 04.10.2024 | Jashari      | 60'          | 55'              |
 
 ## 5. Kontrollieren
 
@@ -100,9 +117,17 @@ Entscheidungen im Projekt:
 | 1.1  | 04.10.2024 | OK       | Atputharasa |
 | 1.2  | 04.10.2024 | OK       | Atputharasa |
 | 2.1  | 04.10.2024 | OK       | Marku       |
+| 2.2  | 04.10.2024 | OK       | Marku       |
 | 3.1  | 04.10.2024 | OK       | Angelov     |
+| 3.2  | 04.10.2024 | OK       | Angelov     |
 | 4.1  | 04.10.2024 | OK       | Jashari     |
-| 5.1  | 04.10.2024 | OK       | Marku       |
+| 4.2  | 04.10.2024 | OK       | Jashari     |
+| 5.1  | 04.10.2024 | OK       | Atputharasa |
+| 6.1  | 04.10.2024 | OK       | Angelov     |
+| 7.1  | 04.10.2024 | OK       | Marku       |
+| 8.1  | 04.10.2024 | OK       | Jashari     |
+| 8.2  | 04.10.2024 | OK       | Jashari     |
+| 9.1  | 04.10.2024 | OK       | Angelov     |
 
 Alle Tests sind erfolgreich verlaufen, und die Software ist bereit für die Einführung in die Schulverwaltung.
 
@@ -110,5 +135,5 @@ Alle Tests sind erfolgreich verlaufen, und die Software ist bereit für die Einf
 
 ## 6. Auswerten
 
-Der Lernbericht und die vollständige Projektdokumentation sind im GitHub-Repository verlinkt.
+Der Lernbericht und die vollständige Projektdokumentation sind im GitHub-Repository abgelegt.
 
