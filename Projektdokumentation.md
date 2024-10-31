@@ -2,7 +2,7 @@
 
 **Projektantrag zu LA_ILA3_0110**
 
-**Projektteam (1. Zeile = Projektleitung):**
+**Projektteam**
 
 | Name          | Vorname     | Klasse |
 |---------------|-------------|--------|
@@ -11,7 +11,6 @@
 | Marku         | Erik        | Im22d  |
 | Jashari       | Denis       | Im22d  |
 
----
 
 | Datum      | Version | Zusammenfassung                                                                                       |
 |------------|---------|-------------------------------------------------------------------------------------------------------|
@@ -69,8 +68,6 @@ Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüle
 ### 1.4 Diagramme
 
 - Die Diagramme für das Datenmodell, die Benutzerrollen und Klassenübersichten sind im GitHub-Repository abgelegt und können bei Bedarf abgerufen werden.
-
----
 
 ## 2. Planen
 
@@ -130,8 +127,6 @@ Entscheidungen im Projekt:
 | 10.1 | 04.10.2024 | OK       | Atputharasa |
 
 Alle Tests sind erfolgreich verlaufen, und die Software ist bereit für die Einführung in die Schulverwaltung.
-
----
 
 ## 6. Auswerten
 
