@@ -26,7 +26,7 @@
 
 ### 1.1 Projektbeschreibung
 
-Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüler und Lehrkräfte zu erfassen und zu verwalten. Zudem können Lehrkräfte Schüler bestimmten Klassen und Schuljahren zuweisen, und Benutzerrechte können durch ein Rollenmanagement angepasst werden.
+Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüler und Lehrkräfte zu erfassen und zu verwalten. Die Applikation bietet Funktionen zur Klassenzuweisung, Benutzerverwaltung und Zugriffskontrolle über ein Rollenmanagementsystem. C# wird für die Implementierung des Backends genutzt, um Datenoperationen effizient zu handhaben und eine Verbindung zur MongoDB-Datenbank herzustellen.
 
 ### 1.2 User Stories
 
@@ -42,6 +42,10 @@ Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüle
 | 8    | muss           | Funktional  | Als Lehrer möchte ich die Möglichkeit haben, Schüler zwischen Klassen zu verschieben, um Klassenänderungen vorzunehmen. |
 | 9    | muss           | Funktional  | Als Administrator möchte ich Benutzerkonten löschen können, um die Datenbank aktuell zu halten. |
 | 10   | muss           | Funktional  | Als Benutzer möchte ich mein Passwort ändern können, um die Sicherheit meines Kontos zu erhöhen. |
+| 11   | kann           | Funktional  | Als Administrator möchte ich Klassenberichte generieren, die die Klassenzusammensetzung und Lehrerverteilung zeigen, um die Schulverwaltung zu erleichtern. |
+| 12   | muss           | Funktional  | Als Lehrer möchte ich direkt in der Applikation auf meine Klassen zugreifen und meine zugewiesenen Schüler einsehen können, um die Schülerlisten schnell aufzurufen. |
+| 13   | muss           | Technisch   | Als Entwickler möchte ich das C#-Backend so strukturieren, dass es klar zwischen Benutzerverwaltung, Rollenmanagement und Klassenzuweisung trennt, um den Code wartbar und erweiterbar zu halten. |
+| 14   | kann           | Funktional  | Als Administrator möchte ich eine Benachrichtigung erhalten, wenn Änderungen an einer Klasse vorgenommen wurden, um den Überblick über Klassenzuordnungen zu behalten. |
 
 ### 1.3 Testfälle
 
@@ -57,6 +61,10 @@ Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüle
 | 8.1  | Schüler in Klasse A         | Schüler von Klasse A zu Klasse B verschieben | Schüler wird erfolgreich in Klasse B gespeichert (US-8) |
 | 9.1  | Vorhandenes Benutzerkonto   | Benutzerkonto löschen                        | Benutzer wird aus der Datenbank entfernt (US-9) |
 | 10.1 | Benutzerprofilseite         | Neues Passwort eingeben                      | Passwort wird erfolgreich geändert (US-10) |
+| 11.1 | Keine vorhandenen Berichte  | Berichterstellung für Klasse 10A anfordern   | Bericht wird erfolgreich generiert und angezeigt (US-11) |
+| 12.1 | Lehrer ist in der Applikation angemeldet | Lehrer ruft Schülerliste der eigenen Klasse ab | Die Schülerliste der zugeordneten Klasse wird angezeigt (US-12) |
+| 13.1 | Backend-Modulstruktur vorhanden | Backend-Module (Benutzerverwaltung, Rollenmanagement, Klassenzuweisung) aufrufen | Module arbeiten unabhängig und sind gut strukturiert (US-13) |
+| 14.1 | Änderungen an Klassenstruktur vorhanden | Klasse 10A wird aktualisiert | Administrator erhält Benachrichtigung über die Änderungen (US-14) |
 
 ### 1.4 Diagramme
 
