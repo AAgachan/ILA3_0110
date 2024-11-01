@@ -146,6 +146,25 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 | 13.1 | 04.10.2024 | OK       | Angelov     | US-13         |
 | 14.1 | 04.10.2024 | OK       | Marku       | US-14         |
 
+##Teamsitzung##
+
+| Tag | Team-Diskussion                           | Positive Punkte                                  | Negative Punkte                                  | Stand                               |
+|-----|-------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------|
+| 1   | Projekt Kickoff und Rollenverteilung     | Klare Rollendefinition                          | Gefahr der Überlastung für einige Mitglieder     | Projekt gestartet                   |
+|     | Zieldefinition für das Projekt            | Fokussierung auf messbare Ziele                 |                                                 | Ziele definiert                     |
+|     | Auswahl der Technologien                   | Entscheidung für C# und MongoDB                 | Einarbeitung in neue Technologien könnte Zeit kosten | Technologien ausgewählt             |
+| 2   | Erstellung des Projektplans               | Strukturierter Ansatz erleichtert die Umsetzung  | Mögliche Verzögerungen durch zu detaillierte Planung | Projektplan erstellt                |
+|     | Zeitplanung für Arbeitspakete            | Realistische Einschätzung des Zeitaufwands      | Schwierigkeiten, Fristen einzuhalten             | Zeitrahmen festgelegt               |
+| 3   | Diskussion über Datenmodellierung         | Klare Struktur hilft bei der Implementierung     | Anpassungen könnten später schwierig sein        | Datenmodell entworfen               |
+|     | Anforderungen an Benutzerrollen           |                                                 | Zu viele Rollen könnten verwirrend sein          | Anforderungen festgelegt             |
+| 4   | Implementierung der CRUD-Funktionalität   | Grundlegende Funktionen sind wichtig für die Anwendung | Komplexität der Implementierung könnte zunehmen | CRUD-Funktionalität in Arbeit       |
+|     | Tests und Qualitätssicherung              | Wichtig, um Funktionalität und Stabilität sicherzustellen | Zeitaufwand für Tests könnte andere Aufgaben verzögern | Teststrategie diskutiert            |
+| 5   | Implementierung von Rollenmanagement      | Klare Zugriffsrechte unterstützen die Benutzerverwaltung | Missverständnisse bei der Rollenvergabe sind möglich | Rollenmanagement in Arbeit          |
+|     | Sicherheitsfeatures in der Anwendung      | Erhöht Vertrauen der Benutzer                    | Zusätzlicher Aufwand für die Implementierung      | Sicherheitsaspekte besprochen        |
+| 6   | Besprechung des Fortschritts              | Probleme können frühzeitig erkannt werden        | Negative Auswirkungen auf die Teamdynamik       | Fortschritt bewertet                |
+|     | Anpassung des Projektplans                | Flexibilität verbessert Anpassungsfähigkeit      | Ständige Änderungen könnten Verwirrung stiften   | Positive Richtung                   |
+
+
 ## 6. Auswerten
 
 Der Lernbericht und die vollständige Projektdokumentation sind im GitHub-Repository abgelegt.
