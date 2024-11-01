@@ -91,7 +91,7 @@ Die Diagramme für das Datenmodell, die Benutzerrollen und Klassenübersichten s
 | 14.A | 04.10.2024 | Team         | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 225 min        |
 | 15.A | 04.10.2024 | Team         | Erstellung der Projektdokumentation | 225 min        |
 | 16.A | 04.10.2024 | Team         | Mahara Portfolio schreiben                            | 225 min        |
-| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 25 min total  |
+| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 30 min total (ausser letzter Tag)  |
 
 ## 3. Entscheiden
 
