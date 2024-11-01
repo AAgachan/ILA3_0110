@@ -17,8 +17,8 @@
 |------------|---------|-------------------------------------------------------------------------------------------------------|
 | 23.08.2024 | 0.0.1   | Projekt Kickoff und initialen Projektplan festgelegt.                                               |
 | 30.08.2024 | 0.1.0   | Entwicklung der Datenbankstrukturen und Beginn der Implementierung der CRUD-Funktionalität.          |
-| 06.09.2024 | 0.2.0   | Weiterführung der Implementierung mit Fokus auf Klassenverwaltung und Sicherheitsfeatures.            |
-| 13.09.2024 | 0.3.0   | Rollenmanagement implementiert und erste Tests der Benutzerverwaltung durchgeführt.                   |
+| 06.09.2024 | 0.2.0   | Weiterführung der Implementierung mit Fokus auf Klassenverwaltung und Rollenmanagement.              |
+| 13.09.2024 | 0.3.0   | Benutzerrollen implementiert und erste Tests der Benutzerverwaltung durchgeführt.                     |
 | 20.09.2024 | 0.4.0   | Abschluss der Implementierung aller Kernfunktionen und Beginn der End-to-End-Tests.                  |
 | 27.09.2024 | 0.5.0   | Fehlerbehebungen und Optimierungen basierend auf Testergebnissen.                                     |
 | 01.11.2024 | 1.0.0   | Finale Tests, Projektabschluss und Vorbereitung der Projektdokumentation.                            |
@@ -91,7 +91,7 @@ Die Diagramme für das Datenmodell, die Benutzerrollen und Klassenübersichten s
 | 14.A | 04.10.2024 | Team         | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 225 min        |
 | 15.A | 04.10.2024 | Team         | Erstellung der Projektdokumentation | 225 min        |
 | 16.A | 04.10.2024 | Team         | Mahara Portfolio schreiben                            | 225 min        |
-| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 30 min total (ausser letzter Tag)  |
+| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 25 min total  |
 
 ## 3. Entscheiden
 
@@ -117,7 +117,7 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 | 14.A | 01.11.2024 | Team         | 225 min        | 240 min            |
 | 15.A | 01.11.2024 | Team         | 225 min        | 225 min            |
 | 16.A | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 17.A | Täglich    | Team         | 5 min pro Arbeitstag | 5 min pro Arbeitstag     |
+| 17.A | Täglich    | Team         | 5 min pro Tag | 5 min pro Tag     |
 
 ## 5. Kontrollieren
 
