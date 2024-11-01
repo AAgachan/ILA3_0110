@@ -15,13 +15,13 @@
 
 | Datum      | Version | Zusammenfassung                                                                                       |
 |------------|---------|-------------------------------------------------------------------------------------------------------|
-| 23.08.2024 | 0.0.1   | Projekt Kickoff und initialen Projektplan festgelegt.                                               |
-| 30.08.2024 | 0.1.0   | Entwicklung der Datenbankstrukturen und Beginn der Implementierung der CRUD-Funktionalität.          |
-| 06.09.2024 | 0.2.0   | Weiterführung der Implementierung mit Fokus auf Klassenverwaltung und Rollenmanagement.              |
+| 23.08.2024 | 0.0.1   | Projekt Kickoff und initialen Projektplan festgelegt.                                                 |
+| 30.08.2024 | 0.1.0   | Entwicklung der Datenbankstrukturen und Beginn der Implementierung der CRUD-Funktionalität.           |
+| 06.09.2024 | 0.2.0   | Weiterführung der Implementierung mit Fokus auf Klassenverwaltung und Rollenmanagement.               |
 | 13.09.2024 | 0.3.0   | Benutzerrollen implementiert und erste Tests der Benutzerverwaltung durchgeführt.                     |
-| 20.09.2024 | 0.4.0   | Abschluss der Implementierung aller Kernfunktionen und Beginn der End-to-End-Tests.                  |
+| 20.09.2024 | 0.4.0   | Abschluss der Implementierung aller Kernfunktionen und Beginn der End-to-End-Tests.                   |
 | 27.09.2024 | 0.5.0   | Fehlerbehebungen und Optimierungen basierend auf Testergebnissen.                                     |
-| 01.11.2024 | 1.0.0   | Finale Tests, Projektabschluss und Vorbereitung der Projektdokumentation.                            |
+| 01.11.2024 | 1.0.0   | Finale Tests, Projektabschluss und Vorbereitung der Projektdokumentation.                             |
 
 ## 1. Informieren
 
@@ -59,7 +59,7 @@ Die Benutzerrollen und deren Zugriffsrechte sind wie folgt definiert:
 | TC-№ | Ausgangslage               | Eingabe                                      | Erwartete Ausgabe                                |
 |------|-----------------------------|----------------------------------------------|--------------------------------------------------|
 | 1.1  | Schüler- und Lehrerdatenbank leer | Neuen Schüler und Lehrer hinzufügen          | Schüler und Lehrer sind in der Datenbank gespeichert (US-1) |
-| 2.1  | Vorhandene Schülerdaten     | Bestehenden Schülerdatensatz aktualisieren    | Geänderte Schülerdaten werden gespeichert (US-2) |
+| 2.1  | Vorhandene Schülerdaten     | Bestehenden Schülerdatensatz aktualisieren     | Geänderte Schülerdaten werden gespeichert (US-2) |
 | 3.1  | Klasse ohne zugewiesene Schüler | Schüler einer Klasse zuweisen                | Schüler wird erfolgreich zur Klasse hinzugefügt (US-3) |
 | 4.1  | Rollenverwaltung leer       | Neue Rolle „Lehrer“ erstellen                | Rolle „Lehrer“ wird in der Datenbank gespeichert (US-4) |
 | 5.1  | Anmeldeseite                | Gültige Anmeldedaten eingeben                | Benutzer wird authentifiziert und angemeldet (US-5) |
