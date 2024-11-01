@@ -72,13 +72,28 @@ Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüle
 
 Die Diagramme für das Datenmodell, die Benutzerrollen und Klassenübersichten sind im GitHub-Repository abgelegt und können bei Bedarf abgerufen werden.
 
+
 ## 2. Planen
 
-| AP-№ | Datum      | Zuständig    | geplante Zeit | tatsächliche Zeit |
-|------|------------|--------------|---------------|-------------------|
-| 1.A  | 23.08.2024 | Gesamtes Team | 45 min        | 60 min            |
-| 2.A  | 30.08.2024 bis 27.09.2024 | Gesamtes Team | 360 min (verteilt auf Tage) | 420 min (Verteilung auf Programmierung und Diskussionen) |
-| 3.A  | 01.11.2024 | Gesamtes Team | 45 min        | 90 min (abschließende Tests und Dokumentation) |
+| AP-№ | Frist      | Zuständig    | Beschreibung                                          | geplante Zeit |
+|------|------------|--------------|-------------------------------------------------------|---------------|
+| 1.A  | 30.08.2024 | Atputharasa, Jashari | Implementierung der Funktionalität für das Hinzufügen von Schülern und Lehrern (US-1) | 45 min        |
+| 2.A  | 30.08.2024 | Jashari, Neuer | Aktualisierung bestehender Schüler- und Lehrerdaten (US-2) | 45 min        |
+| 3.A  | 06.09.2024 | Angelov, Marku | Zuordnung von Schülern zu Klassen (US-3) | 45 min        |
+| 4.A  | 13.09.2024 | Marku, Neuer | Anlegen von Benutzerrollen „Lehrer“ und „Schüler“ (US-4) | 45 min        |
+| 5.A  | 13.09.2024 | Neuer, Atputharasa | Implementierung des sicheren Logins (US-5) | 45 min        |
+| 6.A  | 20.09.2024 | Angelov, Jashari | Anzeigen der Schülerliste für Lehrer (US-6) | 45 min        |
+| 7.A  | 20.09.2024 | Marku, Angelov | Zuweisung von Rechten an Benutzerrollen (US-7) | 45 min        |
+| 8.A  | 27.09.2024 | Jashari, Marku | Verschieben von Schülern zwischen Klassen (US-8) | 45 min        |
+| 9.A  | 04.10.2024 | Marku, Neuer | Löschen von Benutzerkonten (US-9) | 45 min        |
+| 10.A | 04.10.2024 | Jashari, Atputharasa | Implementierung der Passwortänderungsfunktionalität (US-10) | 45 min        |
+| 11.A | 04.10.2024 | Atputharasa, Neuer | Generieren von Klassenberichten (US-11) | 45 min        |
+| 12.A | 04.10.2024 | Neuer, Angelov | Direkter Zugriff auf Klassen und Schülerlisten für Lehrer (US-12) | 45 min        |
+| 13.A | 04.10.2024 | Angelov, Atputharasa | Strukturierung des C#-Backends (US-13) | 45 min        |
+| 14.A | 04.10.2024 | Marku, Jashari | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 45 min        |
+| 15.A | 04.10.2024 | Jashari, Atputharasa | Erstellung der Projektdokumentation | 45 min        |
+| 16.A | 04.10.2024 | Atputharasa, Neuer | Mahara Portfolio schreiben                            | 45 min        |
+| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 25 min total  |
 
 ## 3. Entscheiden
 
@@ -86,7 +101,26 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 
 ## 4. Realisieren
 
-Die Realisierungsphase wurde detailliert dokumentiert, einschließlich Code-Implementierungen und Anpassungen basierend auf Testergebnissen.
+| AP-№ | Datum      | Zuständig    | geplante Zeit | tatsächliche Zeit |
+|------|------------|--------------|---------------|-------------------|
+| 1.A  | 23.08.2024 | Atputharasa, Jashari | 45 min        | 60 min            |
+| 2.A  | 30.08.2024 | Jashari, Neuer | 45 min        | 50 min            |
+| 3.A  | 06.09.2024 | Angelov, Marku | 45 min        | 45 min            |
+| 4.A  | 13.09.2024 | Marku, Neuer | 45 min        | 55 min            |
+| 5.A  | 20.09.2024 | Neuer, Atputharasa | 45 min        | 40 min            |
+| 6.A  | 27.09.2024 | Angelov, Jashari | 45 min        | 50 min            |
+| 7.A  | 01.11.2024 | Marku, Angelov | 45 min        | 45 min            |
+| 8.A  | 01.11.2024 | Jashari, Marku | 45 min        | 55 min            |
+| 9.A  | 01.11.2024 | Marku, Neuer | 45 min        | 50 min            |
+| 10.A | 01.11.2024 | Jashari, Atputharasa | 45 min        | 50 min            |
+| 11.A | 01.11.2024 | Atputharasa, Neuer | 45 min        | 50 min            |
+| 12.A | 01.11.2024 | Neuer, Angelov | 45 min        | 40 min            |
+| 13.A | 01.11.2024 | Angelov, Atputharasa | 45 min        | 60 min            |
+| 14.A | 01.11.2024 | Marku, Jashari | 45 min        | 55 min            |
+| 15.A | 01.11.2024 | Jashari, Atputharasa | 45 min        | 45 min            |
+| 16.A | 01.11.2024 | Atputharasa, Neuer | 45 min        | 45 min            |
+| 17.A | Täglich    | Team         | 5 min pro Tag | 5 min pro Tag     |
+
 
 ## 5. Kontrollieren
 
