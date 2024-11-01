@@ -73,25 +73,25 @@ Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüle
 
 ## 2. Planen
 
-| AP-№ | Frist      | Zuständig    | Beschreibung                                          | geplante Zeit | Tatsächliche Zeit | Kommentar                  |
-|------|------------|--------------|-------------------------------------------------------|---------------|-------------------|----------------------------|
-| 1.A  | 30.08.2024 | Atputharasa  | Implementierung der Funktionalität für das Hinzufügen von Schülern und Lehrern (US-1) | 374'          | 374'              | Codeimplementierung       |
-| 2.A  | 30.08.2024 | Jashari      | Aktualisierung bestehender Schüler- und Lehrerdaten (US-2) | 374'          | 374'              | Codeimplementierung       |
-| 3.A  | 06.09.2024 | Angelov      | Zuordnung von Schülern zu Klassen (US-3) | 374'          | 374'              | Codeimplementierung       |
-| 4.A  | 13.09.2024 | Marku        | Anlegen von Benutzerrollen „Lehrer“ und „Schüler“ (US-4) | 374'          | 374'              | Codeimplementierung       |
-| 5.A  | 13.09.2024 | Neuer        | Implementierung des sicheren Logins (US-5) | 374'          | 374'              | Codeimplementierung       |
-| 6.A  | 20.09.2024 | Angelov      | Anzeigen der Schülerliste für Lehrer (US-6) | 374'          | 374'              | Codeimplementierung       |
-| 7.A  | 20.09.2024 | Marku        | Zuweisung von Rechten an Benutzerrollen (US-7) | 374'          | 374'              | Codeimplementierung       |
-| 8.A  | 27.09.2024 | Jashari      | Verschieben von Schülern zwischen Klassen (US-8) | 374'          | 374'              | Codeimplementierung       |
-| 9.A  | 04.10.2024 | Marku        | Löschen von Benutzerkonten (US-9) | 374'          | 374'              | Codeimplementierung       |
-| 10.A | 04.10.2024 | Jashari      | Implementierung der Passwortänderungsfunktionalität (US-10) | 374'          | 374'              | Codeimplementierung       |
-| 11.A | 04.10.2024 | Atputharasa  | Generieren von Klassenberichten (US-11) | 374'          | 374'              | Codeimplementierung       |
-| 12.A | 04.10.2024 | Neuer        | Direkter Zugriff auf Klassen und Schülerlisten für Lehrer (US-12) | 374'          | 374'              | Codeimplementierung       |
-| 13.A | 04.10.2024 | Angelov      | Strukturierung des C#-Backends (US-13) | 374'          | 374'              | Codeimplementierung       |
-| 14.A | 04.10.2024 | Marku        | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 374'          | 374'              | Codeimplementierung       |
-| 15.A | 04.10.2024 | Jashari      | Erstellung der Projektdokumentation | 62'           | 60'              | Dokumentation             |
-| 16.A | 04.10.2024 | Atputharasa  | Mahara Portfolio schreiben                            | 62'           | 60'              | Portfolioarbeit           |
-| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen                               | 5' pro Tag    | 5' pro Tag       | Teamkommunikation         |
+| AP-№ | Frist      | Zuständig    | Beschreibung                                          | geplante Zeit |
+|------|------------|--------------|-------------------------------------------------------|---------------|
+| 1.A  | 30.08.2024 | Atputharasa, Jashari | Implementierung der Funktionalität für das Hinzufügen von Schülern und Lehrern (US-1) | 45 min        |
+| 2.A  | 30.08.2024 | Jashari, Neuer | Aktualisierung bestehender Schüler- und Lehrerdaten (US-2) | 45 min        |
+| 3.A  | 06.09.2024 | Angelov, Marku | Zuordnung von Schülern zu Klassen (US-3) | 45 min        |
+| 4.A  | 13.09.2024 | Marku, Neuer | Anlegen von Benutzerrollen „Lehrer“ und „Schüler“ (US-4) | 45 min        |
+| 5.A  | 13.09.2024 | Neuer, Atputharasa | Implementierung des sicheren Logins (US-5) | 45 min        |
+| 6.A  | 20.09.2024 | Angelov, Jashari | Anzeigen der Schülerliste für Lehrer (US-6) | 45 min        |
+| 7.A  | 20.09.2024 | Marku, Angelov | Zuweisung von Rechten an Benutzerrollen (US-7) | 45 min        |
+| 8.A  | 27.09.2024 | Jashari, Marku | Verschieben von Schülern zwischen Klassen (US-8) | 45 min        |
+| 9.A  | 04.10.2024 | Marku, Neuer | Löschen von Benutzerkonten (US-9) | 45 min        |
+| 10.A | 04.10.2024 | Jashari, Atputharasa | Implementierung der Passwortänderungsfunktionalität (US-10) | 45 min        |
+| 11.A | 04.10.2024 | Atputharasa, Neuer | Generieren von Klassenberichten (US-11) | 45 min        |
+| 12.A | 04.10.2024 | Neuer, Angelov | Direkter Zugriff auf Klassen und Schülerlisten für Lehrer (US-12) | 45 min        |
+| 13.A | 04.10.2024 | Angelov, Atputharasa | Strukturierung des C#-Backends (US-13) | 45 min        |
+| 14.A | 04.10.2024 | Marku, Jashari | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 45 min        |
+| 15.A | 04.10.2024 | Jashari, Atputharasa | Erstellung der Projektdokumentation | 45 min        |
+| 16.A | 04.10.2024 | Atputharasa, Neuer | Mahara Portfolio schreiben                            | 45 min        |
+| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 25 min total  |
 
 ## 3. Entscheiden
 
@@ -112,12 +112,12 @@ Realisierungsphase detailliert dokumentiert mit Code-Implementierung und Zeitauf
 | TC-№ | Datum      | Resultat | Tester      | Verknüpfte US |
 |------|------------|----------|-------------|---------------|
 | 1.1  | 04.10.2024 | OK       | Atputharasa | US-1          |
-| 2.1  | 04.10.2024 | OK       | Atputharasa | US-2          |
-| 3.1  | 04.10.2024 | OK       | Marku       | US-3          |
+| 2.1  | 04.10.2024 | OK       | Jashari     | US-2          |
+| 3.1  | 04.10.2024 | OK       | Angelov     | US-3          |
 | 4.1  | 04.10.2024 | OK       | Marku       | US-4          |
-| 5.1  | 04.10.2024 | OK       | Angelov     | US-5          |
+| 5.1  | 04.10.2024 | OK       | Neuer       | US-5          |
 | 6.1  | 04.10.2024 | OK       | Angelov     | US-6          |
-| 7.1  | 04.10.2024 | OK       | Jashari     | US-7          |
+| 7.1  | 04.10.2024 | OK       | Marku       | US-7          |
 | 8.1  | 04.10.2024 | OK       | Jashari     | US-8          |
 | 9.1  | 04.10.2024 | OK       | Marku       | US-9          |
 | 10.1 | 04.10.2024 | OK       | Atputharasa | US-10         |
