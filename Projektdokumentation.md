@@ -11,6 +11,7 @@
 | Marku         | Erik        | Im22d  |
 | Jashari       | Denis       | Im22d  |
 
+**Versionshistorie**
 
 | Datum      | Version | Zusammenfassung                                                                                       |
 |------------|---------|-------------------------------------------------------------------------------------------------------|
@@ -131,4 +132,3 @@ Alle Tests sind erfolgreich verlaufen, und die Software ist bereit für die Einf
 ## 6. Auswerten
 
 Der Lernbericht und die vollständige Projektdokumentation sind im GitHub-Repository abgelegt.
-
