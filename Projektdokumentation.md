@@ -117,7 +117,7 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 | 14.A | 01.11.2024 | Team         | 225 min        | 240 min            |
 | 15.A | 01.11.2024 | Team         | 225 min        | 225 min            |
 | 16.A | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 17.A | Täglich    | Team         | 5 min pro Tag | 5 min pro Tag     |
+| 17.A | Täglich    | Team         | 5 min pro Arbeitstag | 5 min pro Arbeitstag     |
 
 ## 5. Kontrollieren
 
