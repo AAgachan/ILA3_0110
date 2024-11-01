@@ -10,6 +10,7 @@
 | Angelov       | Angel       | Im22d  |
 | Marku         | Erik        | Im22d  |
 | Jashari       | Denis       | Im22d  |
+| Neuer         | Mitglied    | Im22d  |
 
 **Versionshistorie**
 
@@ -72,20 +73,25 @@ Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüle
 
 ## 2. Planen
 
-| AP-№ | Frist      | Zuständig    | Beschreibung                                          | geplante Zeit |
-|------|------------|--------------|-------------------------------------------------------|---------------|
-| 1.A  | 30.08.2024 | Atputharasa  | CRUD-Implementation für Schüler und Lehrer            | 60'          |
-| 2.A  | 30.08.2024 | Jashari      | Datenmodellierung für Schüler-, Lehrer- und Klassendaten | 60'          |
-| 3.A  | 06.09.2024 | Angelov      | Klassenverwaltung zur Einteilung nach Schuljahren     | 60'          |
-| 4.A  | 13.09.2024 | Marku        | Rollenmanagement für Benutzerrechte                    | 60'          |
-| 5.A  | 13.09.2024 | Atputharasa  | Backend-Integration mit MongoDB                       | 60'          |
-| 6.A  | 20.09.2024 | Angelov      | Schnittstellenimplementierung                         | 60'          |
-| 7.A  | 20.09.2024 | Marku        | Benutzerverwaltung                                    | 60'          |
-| 8.A  | 27.09.2024 | Jashari      | Sicherheitsfeatures implementieren                    | 60'          |
-| 9.A  | 04.10.2024 | Marku        | Implementierung der Datenbanksicherungsfunktion       | 60'          |
-| 10.A | 04.10.2024 | Jashari      | Erstellung der Dokumentation für Benutzer und Admins   | 60'          |
-
-Total: 10 Arbeitspakete
+| AP-№ | Frist      | Zuständig    | Beschreibung                                          | geplante Zeit | Tatsächliche Zeit | Kommentar                  |
+|------|------------|--------------|-------------------------------------------------------|---------------|-------------------|----------------------------|
+| 1.A  | 30.08.2024 | Atputharasa  | Implementierung der Funktionalität für das Hinzufügen von Schülern und Lehrern (US-1) | 374'          | 374'              | Codeimplementierung       |
+| 2.A  | 30.08.2024 | Jashari      | Aktualisierung bestehender Schüler- und Lehrerdaten (US-2) | 374'          | 374'              | Codeimplementierung       |
+| 3.A  | 06.09.2024 | Angelov      | Zuordnung von Schülern zu Klassen (US-3) | 374'          | 374'              | Codeimplementierung       |
+| 4.A  | 13.09.2024 | Marku        | Anlegen von Benutzerrollen „Lehrer“ und „Schüler“ (US-4) | 374'          | 374'              | Codeimplementierung       |
+| 5.A  | 13.09.2024 | Neuer        | Implementierung des sicheren Logins (US-5) | 374'          | 374'              | Codeimplementierung       |
+| 6.A  | 20.09.2024 | Angelov      | Anzeigen der Schülerliste für Lehrer (US-6) | 374'          | 374'              | Codeimplementierung       |
+| 7.A  | 20.09.2024 | Marku        | Zuweisung von Rechten an Benutzerrollen (US-7) | 374'          | 374'              | Codeimplementierung       |
+| 8.A  | 27.09.2024 | Jashari      | Verschieben von Schülern zwischen Klassen (US-8) | 374'          | 374'              | Codeimplementierung       |
+| 9.A  | 04.10.2024 | Marku        | Löschen von Benutzerkonten (US-9) | 374'          | 374'              | Codeimplementierung       |
+| 10.A | 04.10.2024 | Jashari      | Implementierung der Passwortänderungsfunktionalität (US-10) | 374'          | 374'              | Codeimplementierung       |
+| 11.A | 04.10.2024 | Atputharasa  | Generieren von Klassenberichten (US-11) | 374'          | 374'              | Codeimplementierung       |
+| 12.A | 04.10.2024 | Neuer        | Direkter Zugriff auf Klassen und Schülerlisten für Lehrer (US-12) | 374'          | 374'              | Codeimplementierung       |
+| 13.A | 04.10.2024 | Angelov      | Strukturierung des C#-Backends (US-13) | 374'          | 374'              | Codeimplementierung       |
+| 14.A | 04.10.2024 | Marku        | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 374'          | 374'              | Codeimplementierung       |
+| 15.A | 04.10.2024 | Jashari      | Erstellung der Projektdokumentation | 62'           | 60'              | Dokumentation             |
+| 16.A | 04.10.2024 | Atputharasa  | Mahara Portfolio schreiben                            | 62'           | 60'              | Portfolioarbeit           |
+| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen                               | 5' pro Tag    | 5' pro Tag       | Teamkommunikation         |
 
 ## 3. Entscheiden
 
@@ -97,35 +103,28 @@ Entscheidungen im Projekt:
 
 ## 4. Realisieren
 
-| AP-№ | Datum      | Zuständig    | geplante Zeit | tatsächliche Zeit |
-|------|------------|--------------|---------------|-------------------|
-| 1.A  | 30.08.2024 | Atputharasa  | 60'          | 60'              |
-| 2.A  | 30.08.2024 | Jashari      | 60'          | 55'              |
-| 3.A  | 06.09.2024 | Angelov      | 60'          | 60'              |
-| 4.A  | 13.09.2024 | Marku        | 60'          | 65'              |
-| 5.A  | 13.09.2024 | Atputharasa  | 60'          | 60'              |
-| 6.A  | 20.09.2024 | Angelov      | 60'          | 55'              |
-| 7.A  | 20.09.2024 | Marku        | 60'          | 60'              |
-| 8.A  | 27.09.2024 | Jashari      | 60'          | 60'              |
-| 9.A  | 04.10.2024 | Marku        | 60'          | 60'              |
-| 10.A | 04.10.2024 | Jashari      | 60'          | 55'              |
+Realisierungsphase detailliert dokumentiert mit Code-Implementierung und Zeitaufzeichnungen.
 
 ## 5. Kontrollieren
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum      | Resultat | Tester      |
-|------|------------|----------|-------------|
-| 1.1  | 04.10.2024 | OK       | Atputharasa |
-| 2.1  | 04.10.2024 | OK       | Atputharasa |
-| 3.1  | 04.10.2024 | OK       | Marku       |
-| 4.1  | 04.10.2024 | OK       | Marku       |
-| 5.1  | 04.10.2024 | OK       | Angelov     |
-| 6.1  | 04.10.2024 | OK       | Angelov     |
-| 7.1  | 04.10.2024 | OK       | Jashari     |
-| 8.1  | 04.10.2024 | OK       | Jashari     |
-| 9.1  | 04.10.2024 | OK       | Marku       |
-| 10.1 | 04.10.2024 | OK       | Atputharasa |
+| TC-№ | Datum      | Resultat | Tester      | Verknüpfte US |
+|------|------------|----------|-------------|---------------|
+| 1.1  | 04.10.2024 | OK       | Atputharasa | US-1          |
+| 2.1  | 04.10.2024 | OK       | Atputharasa | US-2          |
+| 3.1  | 04.10.2024 | OK       | Marku       | US-3          |
+| 4.1  | 04.10.2024 | OK       | Marku       | US-4          |
+| 5.1  | 04.10.2024 | OK       | Angelov     | US-5          |
+| 6.1  | 04.10.2024 | OK       | Angelov     | US-6          |
+| 7.1  | 04.10.2024 | OK       | Jashari     | US-7          |
+| 8.1  | 04.10.2024 | OK       | Jashari     | US-8          |
+| 9.1  | 04.10.2024 | OK       | Marku       | US-9          |
+| 10.1 | 04.10.2024 | OK       | Atputharasa | US-10         |
+| 11.1 | 04.10.2024 | OK       | Atputharasa | US-11         |
+| 12.1 | 04.10.2024 | OK       | Neuer       | US-12         |
+| 13.1 | 04.10.2024 | OK       | Angelov     | US-13         |
+| 14.1 | 04.10.2024 | OK       | Marku       | US-14         |
 
 Alle Tests sind erfolgreich verlaufen, und die Software ist bereit für die Einführung in die Schulverwaltung.
 
