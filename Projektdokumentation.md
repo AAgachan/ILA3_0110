@@ -123,7 +123,7 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 | 14.A | 01.11.2024 | Team         | 225 min        | 240 min            |
 | 15.A | 01.11.2024 | Team         | 225 min        | 225 min            |
 | 16.A | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 17.A | Täglich    | Team         | 5 min pro Tag | 5 min pro Tag     |
+| 17.A | Täglich    | Team         | 5 min pro Arbeitstag | 5 min pro Arbeitstag  |
 
 ## 5. Kontrollieren
 
@@ -150,7 +150,7 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 
 | Tag | Team-Diskussion                           | Positive Punkte                                  | Negative Punkte                                  | Stand                               |
 |-----|-------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------|
-| 1   | Projekt Kickoff und Rollenverteilung     | Klare Rollendefinition für jeden im Team       | Mögliche Überlastung bei bestimmten Mitgliedern   | Projekt gestartet                   |
+| 1   | Projekt Kickoff und Rollenverteilung | Klare Rollendefinition für jeden im Team| Mögliche Überlastung bei bestimmten Mitgliedern |Projekt gestartet|
 |     | Zieldefinition für das Projekt            | Fokussierung auf messbare und erreichbare Ziele | Zu viele Ziele könnten verwirrend sein          | Ziele definiert                     |
 |     | Auswahl der Technologien                   | C# und MongoDB ermöglichen schnelle Entwicklung  | Einarbeitung in neue Tools könnte Zeit kosten    | Technologien ausgewählt             |
 | 2   | Erstellung des Projektplans               | Strukturierter Plan erleichtert die Arbeit       | Zu strenge Planung könnte Flexibilität einschränken | Projektplan erstellt                |
