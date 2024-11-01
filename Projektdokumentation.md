@@ -83,21 +83,21 @@ Die Diagramme für das Datenmodell, die Benutzerrollen und Klassenübersichten s
 |------|------------|--------------|-------------------------------------------------------|---------------|
 | 1.A  | 30.08.2024 | Team         | Implementierung der Funktionalität für das Hinzufügen von Schülern und Lehrern (US-1) | 225 min        |
 | 2.A  | 30.08.2024 | Team         | Aktualisierung bestehender Schüler- und Lehrerdaten (US-2) | 225 min        |
-| 3.A  | 06.09.2024 | Team         | Zuordnung von Schülern zu Klassen (US-3) | 225 min        |
-| 4.A  | 13.09.2024 | Team         | Anlegen von Benutzerrollen „Lehrer“ und „Schüler“ (US-4) | 225 min        |
-| 5.A  | 13.09.2024 | Team         | Implementierung des sicheren Logins (US-5) | 225 min        |
-| 6.A  | 20.09.2024 | Team         | Anzeigen der Schülerliste für Lehrer (US-6) | 225 min        |
-| 7.A  | 20.09.2024 | Team         | Zuweisung von Rechten an Benutzerrollen (US-7) | 225 min        |
-| 8.A  | 27.09.2024 | Team         | Verschieben von Schülern zwischen Klassen (US-8) | 225 min        |
-| 9.A  | 04.10.2024 | Team         | Löschen von Benutzerkonten (US-9) | 225 min        |
+| 3.A  | 06.09.2024 | Team         | Zuordnung von Schülern zu Klassen (US-3)                   | 225 min        |
+| 4.A  | 13.09.2024 | Team         | Anlegen von Benutzerrollen „Lehrer“ und „Schüler“ (US-4)   | 225 min        |
+| 5.A  | 13.09.2024 | Team         | Implementierung des sicheren Logins (US-5)            | 225 min        |
+| 6.A  | 20.09.2024 | Team         | Anzeigen der Schülerliste für Lehrer (US-6)           | 225 min        |
+| 7.A  | 20.09.2024 | Team         | Zuweisung von Rechten an Benutzerrollen (US-7)        | 225 min        |
+| 8.A  | 27.09.2024 | Team         | Verschieben von Schülern zwischen Klassen (US-8)      | 225 min        |
+| 9.A  | 04.10.2024 | Team         | Löschen von Benutzerkonten (US-9)                     | 225 min        |
 | 10.A | 04.10.2024 | Team         | Implementierung der Passwortänderungsfunktionalität (US-10) | 225 min        |
-| 11.A | 04.10.2024 | Team         | Generieren von Klassenberichten (US-11) | 225 min        |
+| 11.A | 04.10.2024 | Team         | Generieren von Klassenberichten (US-11)               | 225 min        |
 | 12.A | 04.10.2024 | Team         | Direkter Zugriff auf Klassen und Schülerlisten für Lehrer (US-12) | 225 min        |
-| 13.A | 04.10.2024 | Team         | Strukturierung des C#-Backends (US-13) | 225 min        |
+| 13.A | 04.10.2024 | Team         | Strukturierung des C#-Backends (US-13)                | 225 min        |
 | 14.A | 04.10.2024 | Team         | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 225 min        |
-| 15.A | 04.10.2024 | Team         | Erstellung der Projektdokumentation | 225 min        |
+| 15.A | 04.10.2024 | Team         | Erstellung der Projektdokumentation | 225 min         |
 | 16.A | 04.10.2024 | Team         | Mahara Portfolio schreiben                            | 225 min        |
-| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 25 min total  |
+| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag)           | 25 min total  |
 
 ## 3. Entscheiden
 
@@ -107,22 +107,22 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 
 | AP-№ | Datum      | Zuständig    | geplante Zeit | tatsächliche Zeit |
 |------|------------|--------------|---------------|-------------------|
-| 1.A  | 23.08.2024 | Team         | 225 min        | 240 min            |
-| 2.A  | 30.08.2024 | Team         | 225 min        | 225 min            |
-| 3.A  | 06.09.2024 | Team         | 225 min        | 225 min            |
-| 4.A  | 13.09.2024 | Team         | 225 min        | 240 min            |
-| 5.A  | 20.09.2024 | Team         | 225 min        | 225 min            |
-| 6.A  | 27.09.2024 | Team         | 225 min        | 225 min            |
-| 7.A  | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 8.A  | 01.11.2024 | Team         | 225 min        | 240 min            |
-| 9.A  | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 10.A | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 11.A | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 12.A | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 13.A | 01.11.2024 | Team         | 225 min        | 240 min            |
-| 14.A | 01.11.2024 | Team         | 225 min        | 240 min            |
-| 15.A | 01.11.2024 | Team         | 225 min        | 225 min            |
-| 16.A | 01.11.2024 | Team         | 225 min        | 225 min            |
+| 1.A  | 23.08.2024 | Team         | 225 min              | 240 min            |
+| 2.A  | 30.08.2024 | Team         | 225 min              | 225 min            |
+| 3.A  | 06.09.2024 | Team         | 225 min              | 225 min            |
+| 4.A  | 13.09.2024 | Team         | 225 min              | 240 min            |
+| 5.A  | 20.09.2024 | Team         | 225 min              | 225 min            |
+| 6.A  | 27.09.2024 | Team         | 225 min              | 225 min            |
+| 7.A  | 01.11.2024 | Team         | 225 min              | 225 min            |
+| 8.A  | 01.11.2024 | Team         | 225 min              | 240 min            |
+| 9.A  | 01.11.2024 | Team         | 225 min              | 225 min            |
+| 10.A | 01.11.2024 | Team         | 225 min              | 225 min            |
+| 11.A | 01.11.2024 | Team         | 225 min              | 225 min            |
+| 12.A | 01.11.2024 | Team         | 225 min              | 225 min            |
+| 13.A | 01.11.2024 | Team         | 225 min              | 240 min            |
+| 14.A | 01.11.2024 | Team         | 225 min              | 240 min            |
+| 15.A | 01.11.2024 | Team         | 225 min              | 225 min            |
+| 16.A | 01.11.2024 | Team         | 225 min              | 225 min            |
 | 17.A | Täglich    | Team         | 5 min pro Arbeitstag | 5 min pro Arbeitstag  |
 
 ## 5. Kontrollieren
