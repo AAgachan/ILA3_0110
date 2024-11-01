@@ -150,19 +150,20 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 
 | Tag | Team-Diskussion                           | Positive Punkte                                  | Negative Punkte                                  | Stand                               |
 |-----|-------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------|
-| 1   | Projekt Kickoff und Rollenverteilung     | Klare Rollendefinition                          | Gefahr der Überlastung für einige Mitglieder     | Projekt gestartet                   |
-|     | Zieldefinition für das Projekt            | Fokussierung auf messbare Ziele                 |                                                 | Ziele definiert                     |
-|     | Auswahl der Technologien                   | Entscheidung für C# und MongoDB                 | Einarbeitung in neue Technologien könnte Zeit kosten | Technologien ausgewählt             |
-| 2   | Erstellung des Projektplans               | Strukturierter Ansatz erleichtert die Umsetzung  | Mögliche Verzögerungen durch zu detaillierte Planung | Projektplan erstellt                |
-|     | Zeitplanung für Arbeitspakete            | Realistische Einschätzung des Zeitaufwands      | Schwierigkeiten, Fristen einzuhalten             | Zeitrahmen festgelegt               |
-| 3   | Diskussion über Datenmodellierung         | Klare Struktur hilft bei der Implementierung     | Anpassungen könnten später schwierig sein        | Datenmodell entworfen               |
-|     | Anforderungen an Benutzerrollen           |                                                 | Zu viele Rollen könnten verwirrend sein          | Anforderungen festgelegt             |
-| 4   | Implementierung der CRUD-Funktionalität   | Grundlegende Funktionen sind wichtig für die Anwendung | Komplexität der Implementierung könnte zunehmen | CRUD-Funktionalität in Arbeit       |
-|     | Tests und Qualitätssicherung              | Wichtig, um Funktionalität und Stabilität sicherzustellen | Zeitaufwand für Tests könnte andere Aufgaben verzögern | Teststrategie diskutiert            |
-| 5   | Fertigstellung der Dokumentation          | Dokumentation ist nun komplett und hilfreich für die Benutzer | Zeitdruck, um die Dokumentation rechtzeitig abzuschließen | Dokumentation fertiggestellt        |
-|     | Implementierung von Rollenmanagement      | Klare Zugriffsrechte unterstützen die Benutzerverwaltung | Mögliche Missverständnisse bei den Zugriffsrechten | Rollenmanagement in Arbeit          |
-| 6   | Besprechung des Fortschritts              | Probleme können frühzeitig erkannt werden        | Negative Auswirkungen auf die Teamdynamik       | Fortschritt bewertet                |
-|     | Reflexion über den Projektverlauf        | Positives Feedback zur Teamarbeit                | Einige Aufgaben wurden nicht rechtzeitig erledigt | Positive Richtung                   |
+| 1   | Projekt Kickoff und Rollenverteilung     | Klare Rollen helfen jedem, seine Aufgaben zu verstehen | Einige könnten überlastet sein                   | Projekt gestartet                   |
+|     | Zieldefinition für das Projekt            | Fokussierung auf klare Ziele                    | Zu viel Planung kann flexibel machen            | Ziele definiert                     |
+|     | Auswahl der Technologien                   | C# und MongoDB sind bekannt                     | Einarbeitung könnte Zeit kosten                  | Technologien ausgewählt             |
+| 2   | Erstellung des Projektplans               | Struktur hilft bei der Umsetzung                 | Zu detaillierte Planung könnte zu Verzögerungen führen | Projektplan erstellt                |
+|     | Zeitplanung für Arbeitspakete            | Realistische Einschätzung des Aufwands          | Schwierigkeiten bei der Einhaltung der Fristen    | Zeitrahmen festgelegt               |
+| 3   | Diskussion über Datenmodellierung         | Klare Struktur erleichtert die Implementierung   | Änderungen könnten später schwierig sein         | Datenmodell entworfen               |
+|     | Anforderungen an Benutzerrollen           | Klare Zugriffsrechte erhöhen die Sicherheit      | Zu viele Rollen können verwirrend sein          | Anforderungen festgelegt             |
+| 4   | Implementierung der CRUD-Funktionalität   | Grundfunktionen sind wichtig für die Anwendung   | Komplexität der Implementierung könnte zunehmen  | CRUD-Funktionalität in Arbeit       |
+|     | Tests und Qualitätssicherung              | Sicherstellung der Funktionalität                | Zeitaufwand für Tests könnte andere Aufgaben verzögern | Teststrategie diskutiert            |
+| 5   | Dokumentation abschließen                 | Dokumentation ist nun fertig                     | Zeitdruck beim Abschluss                          | Dokumentation fertiggestellt        |
+|     | Implementierung von Rollenmanagement      | Klare Zugriffsrechte helfen bei der Verwaltung    | Missverständnisse bei Zugriffsrechten            | Rollenmanagement in Arbeit          |
+| 6   | Fortschritt besprechen                    | Probleme wurden frühzeitig erkannt               | Teamdynamik könnte leiden                        | Fortschritt bewertet                |
+|     | Projektverlauf reflektieren               | Positives Feedback zur Zusammenarbeit            | Einige Aufgaben wurden nicht rechtzeitig erledigt | Positive Richtung                   |
+
 
 
 ## 6. Auswerten
