@@ -16,12 +16,13 @@
 
 | Datum      | Version | Zusammenfassung                                                                                       |
 |------------|---------|-------------------------------------------------------------------------------------------------------|
-| 30.08.2024 | 0.0.1   | Datenmodellierung abgeschlossen; grundlegende Datenbankstrukturen für Schüler, Lehrer, Rollen und Klassen erstellt. |
-| 06.09.2024 | 0.0.2   | CRUD-Funktionalität implementiert für Schüler- und Lehrerverwaltung. Erste Tests der Benutzerverwaltung durchgeführt. |
-| 13.09.2024 | 0.0.3   | Klassenverwaltungssystem entwickelt; Schüler können nach Schuljahren in Klassen eingeteilt werden. |
-| 20.09.2024 | 0.0.4   | Rollenmanagementsystem implementiert; Benutzerrollen erstellt und Rechte zugewiesen. |
-| 27.09.2024 | 0.0.5   | Benutzerverwaltung und Sicherheitsfeatures integriert. |
-| 04.10.2024 | 1.0.0   | Abschluss der Entwicklung und finale Tests; Projektdokumentation finalisiert. |
+| 23.08.2024 | 0.0.1   | Projekt Kickoff und initialen Projektplan festgelegt. |
+| 30.08.2024 | 0.1.0   | Entwicklung der Datenbankstrukturen und Beginn der Implementierung der CRUD-Funktionalität. |
+| 06.09.2024 | 0.2.0   | Weiterführung der Implementierung mit Fokus auf Klassenverwaltung und Sicherheitsfeatures. |
+| 13.09.2024 | 0.3.0   | Rollenmanagement implementiert und erste Tests der Benutzerverwaltung durchgeführt. |
+| 20.09.2024 | 0.4.0   | Abschluss der Implementierung aller Kernfunktionen und Beginn der End-to-End-Tests. |
+| 27.09.2024 | 0.5.0   | Fehlerbehebungen und Optimierungen basierend auf Testergebnissen. |
+| 01.11.2024 | 1.0.0   | Finale Tests, Projektabschluss und Vorbereitung der Projektdokumentation. |
 
 ## 1. Informieren
 
@@ -69,41 +70,23 @@ Wir entwickeln eine Applikation zur Schulverwaltung, die es ermöglicht, Schüle
 
 ### 1.4 Diagramme
 
-- Die Diagramme für das Datenmodell, die Benutzerrollen und Klassenübersichten sind im GitHub-Repository abgelegt und können bei Bedarf abgerufen werden.
+Die Diagramme für das Datenmodell, die Benutzerrollen und Klassenübersichten sind im GitHub-Repository abgelegt und können bei Bedarf abgerufen werden.
 
 ## 2. Planen
 
-| AP-№ | Frist      | Zuständig    | Beschreibung                                          | geplante Zeit |
-|------|------------|--------------|-------------------------------------------------------|---------------|
-| 1.A  | 30.08.2024 | Atputharasa, Jashari | Implementierung der Funktionalität für das Hinzufügen von Schülern und Lehrern (US-1) | 45 min        |
-| 2.A  | 30.08.2024 | Jashari, Neuer | Aktualisierung bestehender Schüler- und Lehrerdaten (US-2) | 45 min        |
-| 3.A  | 06.09.2024 | Angelov, Marku | Zuordnung von Schülern zu Klassen (US-3) | 45 min        |
-| 4.A  | 13.09.2024 | Marku, Neuer | Anlegen von Benutzerrollen „Lehrer“ und „Schüler“ (US-4) | 45 min        |
-| 5.A  | 13.09.2024 | Neuer, Atputharasa | Implementierung des sicheren Logins (US-5) | 45 min        |
-| 6.A  | 20.09.2024 | Angelov, Jashari | Anzeigen der Schülerliste für Lehrer (US-6) | 45 min        |
-| 7.A  | 20.09.2024 | Marku, Angelov | Zuweisung von Rechten an Benutzerrollen (US-7) | 45 min        |
-| 8.A  | 27.09.2024 | Jashari, Marku | Verschieben von Schülern zwischen Klassen (US-8) | 45 min        |
-| 9.A  | 04.10.2024 | Marku, Neuer | Löschen von Benutzerkonten (US-9) | 45 min        |
-| 10.A | 04.10.2024 | Jashari, Atputharasa | Implementierung der Passwortänderungsfunktionalität (US-10) | 45 min        |
-| 11.A | 04.10.2024 | Atputharasa, Neuer | Generieren von Klassenberichten (US-11) | 45 min        |
-| 12.A | 04.10.2024 | Neuer, Angelov | Direkter Zugriff auf Klassen und Schülerlisten für Lehrer (US-12) | 45 min        |
-| 13.A | 04.10.2024 | Angelov, Atputharasa | Strukturierung des C#-Backends (US-13) | 45 min        |
-| 14.A | 04.10.2024 | Marku, Jashari | Implementierung von Benachrichtigungen bei Klassenänderungen (US-14) | 45 min        |
-| 15.A | 04.10.2024 | Jashari, Atputharasa | Erstellung der Projektdokumentation | 45 min        |
-| 16.A | 04.10.2024 | Atputharasa, Neuer | Mahara Portfolio schreiben                            | 45 min        |
-| 17.A | 04.10.2024 | Team         | Tägliche Team-Sitzungen (5 Minuten pro Tag) | 25 min total  |
+| AP-№ | Datum      | Zuständig    | geplante Zeit | tatsächliche Zeit |
+|------|------------|--------------|---------------|-------------------|
+| 1.A  | 23.08.2024 | Gesamtes Team | 45 min        | 60 min            |
+| 2.A  | 30.08.2024 bis 27.09.2024 | Gesamtes Team | 360 min (verteilt auf Tage) | 420 min (Verteilung auf Programmierung und Diskussionen) |
+| 3.A  | 01.11.2024 | Gesamtes Team | 45 min        | 90 min (abschließende Tests und Dokumentation) |
 
 ## 3. Entscheiden
 
-Entscheidungen im Projekt:
-
-1. **Technologien**: Verwendung von C# und MongoDB für die Applikation zur Speicherung und Verwaltung der Daten.
-2. **Projektmethode**: IPERKA (Informieren, Planen, Entscheiden, Realisieren, Kontrollieren, Auswerten).
-3. **Aufteilung des Teams**: Die Teammitglieder sind den Arbeitspaketen zugeordnet, um parallel an verschiedenen Komponenten zu arbeiten.
+Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit effizienter Datenverwaltung und der Fähigkeit, komplexe Benutzerverwaltungs- und Klassenzuweisungsfunktionen zu implementieren.
 
 ## 4. Realisieren
 
-Realisierungsphase detailliert dokumentiert mit Code-Implementierung und Zeitaufzeichnungen.
+Die Realisierungsphase wurde detailliert dokumentiert, einschließlich Code-Implementierungen und Anpassungen basierend auf Testergebnissen.
 
 ## 5. Kontrollieren
 
@@ -125,8 +108,6 @@ Realisierungsphase detailliert dokumentiert mit Code-Implementierung und Zeitauf
 | 12.1 | 04.10.2024 | OK       | Neuer       | US-12         |
 | 13.1 | 04.10.2024 | OK       | Angelov     | US-13         |
 | 14.1 | 04.10.2024 | OK       | Marku       | US-14         |
-
-Alle Tests sind erfolgreich verlaufen, und die Software ist bereit für die Einführung in die Schulverwaltung.
 
 ## 6. Auswerten
 
