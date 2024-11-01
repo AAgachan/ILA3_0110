@@ -159,10 +159,10 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 |     | Anforderungen an Benutzerrollen           |                                                 | Zu viele Rollen könnten verwirrend sein          | Anforderungen festgelegt             |
 | 4   | Implementierung der CRUD-Funktionalität   | Grundlegende Funktionen sind wichtig für die Anwendung | Komplexität der Implementierung könnte zunehmen | CRUD-Funktionalität in Arbeit       |
 |     | Tests und Qualitätssicherung              | Wichtig, um Funktionalität und Stabilität sicherzustellen | Zeitaufwand für Tests könnte andere Aufgaben verzögern | Teststrategie diskutiert            |
-| 5   | Implementierung von Rollenmanagement      | Klare Zugriffsrechte unterstützen die Benutzerverwaltung | Missverständnisse bei der Rollenvergabe sind möglich | Rollenmanagement in Arbeit          |
-|     | Sicherheitsfeatures in der Anwendung      | Erhöht Vertrauen der Benutzer                    | Zusätzlicher Aufwand für die Implementierung      | Sicherheitsaspekte besprochen        |
+| 5   | Fertigstellung der Dokumentation          | Dokumentation ist nun komplett und hilfreich für die Benutzer | Zeitdruck, um die Dokumentation rechtzeitig abzuschließen | Dokumentation fertiggestellt        |
+|     | Implementierung von Rollenmanagement      | Klare Zugriffsrechte unterstützen die Benutzerverwaltung | Mögliche Missverständnisse bei den Zugriffsrechten | Rollenmanagement in Arbeit          |
 | 6   | Besprechung des Fortschritts              | Probleme können frühzeitig erkannt werden        | Negative Auswirkungen auf die Teamdynamik       | Fortschritt bewertet                |
-|     | Anpassung des Projektplans                | Flexibilität verbessert Anpassungsfähigkeit      | Ständige Änderungen könnten Verwirrung stiften   | Positive Richtung                   |
+|     | Reflexion über den Projektverlauf        | Positives Feedback zur Teamarbeit                | Einige Aufgaben wurden nicht rechtzeitig erledigt | Positive Richtung                   |
 
 
 ## 6. Auswerten
