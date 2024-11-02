@@ -148,24 +148,18 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 
 ##Teamsitzungsbericht
 
-||| **Teamsitzungsbericht: Projektfortschritt Schulverwaltung**
-
-**Projektname**: Schulverwaltungsapplikation
-
-**Projektteam**: Agachan Atputharasa, Angel Angelov, Erik Marku, Denis Jashari
-
----
 
 | Datum      | Erledigte Arbeitspakete                                                                                                       | Nächste Arbeitspakete                              | Verzögerungen | Änderungen                | Pro                                                                                          | Con                                   |
 |------------|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|---------------|---------------------------|----------------------------------------------------------------------------------------------|---------------------------------------|
-| 23.08.2024 | Projekt Kickoff, initialer Projektplan festgelegt                                                                            | Entwicklung der Datenbankstrukturen und CRUD-Funktionen | Keine         | Keine                     | Klar strukturierter Start, gutes gemeinsames Verständnis der Anforderungen                   | Keine detaillierte Planung für Benutzerverwaltung |
-| 06.09.2024 | MongoDB eingerichtet, Datenbankstrukturen erstellt, Basisprogramm mit Menü und Datenbankanbindung entwickelt, CRUD-Pakete hinzugefügt | Klassenverwaltung, Rollenverwaltung               | Keine         | Keine                     | Fortschrittliche Datenbankstruktur, erste Testdaten eingefügt                                | Keine                                |
-| 13.09.2024 | Klassenverwaltung implementiert, Aktionen für Klassen erstellt                                                               | Rollenverwaltung, Validierungen implementieren     | Keine         | Keine                     | Alle Klassenzuweisungen sind abgebildet und verifiziert                                      | Keine                                |
-| 20.09.2024 | Rollenverwaltung abgeschlossen, Validierungen in der Benutzerverwaltung implementiert                                        | Programmüberarbeitung, abschließende Tests         | Keine         | Keine                     | Verbesserte Zugriffskontrolle durch fertige Rollenverwaltung                                | Keine                                |
-| 27.09.2024 | Benutzerverwaltung implementiert, Programmüberarbeitung und erste Tests abgeschlossen                                        | Unit Tests erstellen, Erweiterungen hinzufügen     | Keine         | Keine                     | Stabile Benutzerverwaltung, erfolgreich durchgeführte Tests                                 | Validierungen könnten noch angepasst werden |
+| 23.08.2024 | Projekt Kickoff und initialen Projektplan festgelegt.                                                                          | Entwicklung der Datenbankstrukturen und CRUD-Funktionen | Keine         | Keine                     | Klar strukturierter Start, gutes gemeinsames Verständnis der Anforderungen                   | Keine detaillierte Planung für Benutzerverwaltung |
+| 30.08.2024 | Entwicklung der Datenbankstrukturen und Beginn der Implementierung der CRUD-Funktionalität.                                    | Fortsetzung der Implementierung mit Klassenverwaltung und Rollenmanagement               | Keine         | Keine                     | Schnelle Fortschritte bei der Datenstruktur und ersten Funktionen                            | Keine                                |
+| 06.09.2024 | MongoDB eingerichtet, Datenbankstrukturen erstellt (Benutzer, Klasse, Lehrer, Rolle, Schüler), Basisprogramm mit Menü und Datenbankanbindung entwickelt, CRUD-Pakete hinzugefügt. | Implementierung der Klassenverwaltung und des Rollenmanagements                          | Keine         | Keine                     | Erfolgreiche Einführung der Datenbank und CRUD-Funktionen                                    | Keine                                |
+| 13.09.2024 | Klassenverwaltung implementiert, Aktionen für die jeweiligen Klassen erstellt.                                               | Fortsetzung der Rollenverwaltung und Implementierung von Validierungen                   | Keine         | Keine                     | Alle Klassenzuweisungen erfolgreich abgebildet und verifiziert                              | Keine                                |
+| 20.09.2024 | Rollenverwaltung abgeschlossen, Validierungen in der Benutzerverwaltung implementiert.                                        | Programmüberarbeitung und abschließende Tests                                            | Keine         | Keine                     | Verbesserte Zugriffskontrolle durch fertiggestellte Rollenverwaltung                         | Keine                                |
+| 27.09.2024 | Benutzerverwaltung vollständig implementiert, Programm überarbeitet und erste Tests abgeschlossen.                            | Erstellung von Unit Tests und Hinzufügen geplanter Erweiterungen                         | Keine         | Keine                     | Stabile Benutzerverwaltung und erfolgreich durchgeführte Tests                               | Validierungen könnten in den weiteren Tests angepasst werden |
 
-Mit freundlichen Grüßen  
-**Gruppe Agachan, Angel, Denis & Erik**
+
+
 
 
 
