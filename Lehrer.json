@@ -1,0 +1,10 @@
+{
+    "TeacherId": "ObjectId",
+    "FirstName": "string",
+    "LastName": "string",
+    "DateOfBirth": "Date",
+    "Gender": "string",
+    "Subject": "string",
+    "ClassesTaught": ["ObjectId"]
+  }
+  

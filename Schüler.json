@@ -1,0 +1,10 @@
+{
+    "StudentId": "ObjectId",
+    "FirstName": "string",
+    "LastName": "string",
+    "DateOfBirth": "Date",
+    "Gender": "string",
+    "ClassId": "ObjectId",
+    "EnrollmentYear": "int"
+  }
+  

@@ -1,0 +1,8 @@
+{
+    "ClassId": "ObjectId",
+    "ClassName": "string",
+    "SchoolYear": "int",
+    "TeacherId": "ObjectId",
+    "StudentIds": ["ObjectId"]
+  }
+  

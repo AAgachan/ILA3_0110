@@ -1,0 +1,6 @@
+{
+    "RoleId": "ObjectId",
+    "RoleName": "string",
+    "Permissions": ["string"]
+}
+  
