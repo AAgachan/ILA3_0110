@@ -1,9 +1,0 @@
-{
-    "UserId": "ObjectId",
-    "Username": "string",
-    "PasswordHash": "string",
-    "RoleId": "ObjectId",
-    "AssociatedPersonId": "ObjectId",
-    "PersonType": "string"  
-}
-  
