@@ -21,7 +21,8 @@
 | 13.09.2024 | 0.3.0   | Benutzerrollen implementiert und erste Tests der Benutzerverwaltung durchgeführt.                     |
 | 20.09.2024 | 0.4.0   | Abschluss der Implementierung aller Kernfunktionen und Beginn der End-to-End-Tests.                   |
 | 27.09.2024 | 0.5.0   | Fehlerbehebungen und Optimierungen basierend auf Testergebnissen.                                     |
-| 01.11.2024 | 1.0.0   | Finale Tests, Projektabschluss und Vorbereitung der Projektdokumentation.                             |
+| 01.11.2024 | 0.6.0   | Finale Tests, Projektabschluss und erstellen des Mahara-Portfolios.                                   |
+| 02.11.2024 | 1.0.0   | Probleme im Programm gelöst und am Mahara-portfolio gearbeitet.                                       |
 
 ## 1. Informieren
 
