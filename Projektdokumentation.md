@@ -148,7 +148,7 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 | 13.1 | 04.10.2024 | OK       | Angelov     | US-13         |
 | 14.1 | 04.10.2024 | OK       | Marku       | US-14         |
 
-##Teamsitzungsbericht
+## 7. Teamsitzungsbericht
 
 
 | Datum      | Erledigte Arbeitspakete                                                                                     | Nächste Arbeitspakete                        | Verzögerungen | Änderungen | Pro                                          | Con                                   |
@@ -161,6 +161,6 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 | 27.09.2024 | Benutzerverwaltung, Programmüberarbeitung, erste Tests abgeschlossen                                        | Unit Tests, Erweiterungen                    | Keine         | Keine      | Stabile Benutzerverwaltung, erfolgreiche Tests | Validierungen könnten angepasst werden |
 
 
-## 6. Auswerten
+## 7. Auswerten
 
 Der Lernbericht und die vollständige Projektdokumentation sind im GitHub-Repository abgelegt.
