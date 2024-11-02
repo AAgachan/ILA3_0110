@@ -146,23 +146,26 @@ Die Entscheidung zur Nutzung von C# und MongoDB basiert auf der Notwendigkeit ef
 | 13.1 | 04.10.2024 | OK       | Angelov     | US-13         |
 | 14.1 | 04.10.2024 | OK       | Marku       | US-14         |
 
-##Teamsitzung##
+##Teamsitzungsbericht
 
-| Tag | Team-Diskussion                           | Positive Punkte                                  | Negative Punkte                                  | Stand                               |
-|-----|-------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------|
-| 1   | Projekt Kickoff und Rollenverteilung | Klare Rollendefinition für jeden im Team| Mögliche Überlastung bei bestimmten Mitgliedern |Projekt gestartet|
-|     | Zieldefinition für das Projekt            | Fokussierung auf messbare und erreichbare Ziele | Zu viele Ziele könnten verwirrend sein          | Ziele definiert                     |
-|     | Auswahl der Technologien                   | C# und MongoDB ermöglichen schnelle Entwicklung  | Einarbeitung in neue Tools könnte Zeit kosten    | Technologien ausgewählt             |
-| 2   | Erstellung des Projektplans               | Strukturierter Plan erleichtert die Arbeit       | Zu strenge Planung könnte Flexibilität einschränken | Projektplan erstellt                |
-|     | Zeitplanung für Arbeitspakete            | Realistische Zeitrahmen helfen bei der Planung   | Schwierigkeiten bei der Einhaltung der Fristen    | Zeitrahmen festgelegt               |
-| 3   | Diskussion über Datenmodellierung         | Klare Datenstruktur erleichtert die Implementierung | Änderungen in der Struktur könnten komplex werden | Datenmodell entworfen               |
-|     | Anforderungen an Benutzerrollen           | Definierte Rollen erhöhen die Sicherheit         | Zu viele Rollen könnten zu Verwirrung führen     | Anforderungen festgelegt             |
-| 4   | Implementierung der CRUD-Funktionalität   | Grundfunktionen sind entscheidend für die Anwendung | Komplexität der Funktionen könnte Zeit kosten     | CRUD-Funktionalität in Arbeit       |
-|     | Tests und Qualitätssicherung              | Tests sichern die Qualität der Software          | Hoher Zeitaufwand für umfangreiche Tests         | Teststrategie diskutiert            |
-| 5   | Dokumentation abschließen                 | Fertige Dokumentation ist hilfreich für die Benutzer | Zeitdruck beim Abschluss könnte die Qualität mindern | Dokumentation fertiggestellt        |
-|     | Implementierung von Rollenmanagement      | Klare Zugriffsrechte verbessern die Nutzererfahrung | Missverständnisse in der Rechtevergabe möglich    | Rollenmanagement in Arbeit          |
-| 6   | Fortschritt besprechen                    | Erkennen von Problemen fördert Lösungen          | Mangelnde Kommunikation könnte Probleme verstärken | Fortschritt bewertet                |
-|     | Projektverlauf reflektieren               | Positives Feedback stärkt den Teamgeist          | Einige Aufgaben bleiben unerledigt                | Positive Richtung                   |
+||| **Teamsitzungsbericht: Projektfortschritt Schulverwaltung**
+
+**Projektname**: Schulverwaltungsapplikation
+
+**Projektteam**: Agachan Atputharasa, Angel Angelov, Erik Marku, Denis Jashari
+
+---
+
+| Datum      | Erledigte Arbeitspakete                                                                                                       | Nächste Arbeitspakete                              | Verzögerungen | Änderungen                | Pro                                                                                          | Con                                   |
+|------------|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|---------------|---------------------------|----------------------------------------------------------------------------------------------|---------------------------------------|
+| 23.08.2024 | Projekt Kickoff, initialer Projektplan festgelegt                                                                            | Entwicklung der Datenbankstrukturen und CRUD-Funktionen | Keine         | Keine                     | Klar strukturierter Start, gutes gemeinsames Verständnis der Anforderungen                   | Keine detaillierte Planung für Benutzerverwaltung |
+| 06.09.2024 | MongoDB eingerichtet, Datenbankstrukturen erstellt, Basisprogramm mit Menü und Datenbankanbindung entwickelt, CRUD-Pakete hinzugefügt | Klassenverwaltung, Rollenverwaltung               | Keine         | Keine                     | Fortschrittliche Datenbankstruktur, erste Testdaten eingefügt                                | Keine                                |
+| 13.09.2024 | Klassenverwaltung implementiert, Aktionen für Klassen erstellt                                                               | Rollenverwaltung, Validierungen implementieren     | Keine         | Keine                     | Alle Klassenzuweisungen sind abgebildet und verifiziert                                      | Keine                                |
+| 20.09.2024 | Rollenverwaltung abgeschlossen, Validierungen in der Benutzerverwaltung implementiert                                        | Programmüberarbeitung, abschließende Tests         | Keine         | Keine                     | Verbesserte Zugriffskontrolle durch fertige Rollenverwaltung                                | Keine                                |
+| 27.09.2024 | Benutzerverwaltung implementiert, Programmüberarbeitung und erste Tests abgeschlossen                                        | Unit Tests erstellen, Erweiterungen hinzufügen     | Keine         | Keine                     | Stabile Benutzerverwaltung, erfolgreich durchgeführte Tests                                 | Validierungen könnten noch angepasst werden |
+
+Mit freundlichen Grüßen  
+**Gruppe Agachan, Angel, Denis & Erik**
 
 
 
